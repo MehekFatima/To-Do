@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="To-do.css">
+    <title>TO-DO List</title>
+</head>
+<body oncontextmenu="return false">
+    <div class="app">
+        <div class="heading">
+            <div class="heading__title">TO-DO</div>
+            <div class="heading__sub-title">By Mehek Fatima</div>
+        </div>
+        <div class="todo">
+            <ul class="todo__list">
+                <li class="todo__item">
+                    <span class="todo__icon-tick material-icons"></span>
+                    <span class="todo__text todo__text"></span>
+                    <span class="todo__icon-delete material-icons"></span>
+                </li>                
+            </ul>
+        </div>
+        <div class="new">
+            <form class="new__form">
+                <input class="new__input" type="text" name="new_text" placeholder="Add item ...">
+            </form>
+            <span class="new__submit material-icons">control_point</span>
+        </div>
+    </div>
+        
+    
+
+    <script src="To-do.js"></script>
+</body>
+</html>
